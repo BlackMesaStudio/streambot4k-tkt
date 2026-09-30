@@ -1,0 +1,44 @@
+# Credentials and local state - never commit these
+notebook.json
+config.json
+.nb-*.tmp
+*.tmp
+
+# Secrets
+.env
+*.pem
+*.key
+*.cert
+
+# Build artefacts - attach a Windows binary to a GitHub Release instead
+release/
+dist/
+build/
+*.exe
+*.spec
+*.msi
+
+# Python
+__pycache__
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+.venv/
+venv/
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+
+# Editors and OS
+.vscode/
+.idea/
+*.swp
+*~
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# NOTE: LICENSE, README.md, THIRD-PARTY-NOTICES.md, icon.ico and icon.png are
+# tracked on purpose. The GPL requires the licence text to travel with the work,
+# and the attribution must stay visible.
